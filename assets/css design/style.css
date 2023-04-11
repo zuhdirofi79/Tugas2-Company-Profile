@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Company Profile</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700=shadow-multiple|3d-float" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Montserrat', sans-serif;
+			background-color: #f8f8f8;
+		}
+		header {
+			background-color: #4d631ace;
+			color: #ffffff;
+			padding: 20px;
+		}
+		.logo {
+			float: left;
+		}
+		nav {
+			float: right;
+			margin-top: 20px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		nav li {
+			float: left;
+		}
+		nav li a {
+			display: block;
+			color: #ffffff;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover {
+			background-color: #533d3d;
+		}
+		h1 {
+			font-size: 60px;
+			margin-top: 150px;
+			margin-bottom: 30px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 20px;
+			line-height: 1.5;
+			margin: 0 auto;
+			max-width: 800px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.section {
+			background-color: #ffffff;
+			padding: 50px 0;
+		}
+		.container {
+			max-width: 1000px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		h2 {
+			font-size: 40px;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+		}
+		.col {
+			float: left;
+			width: 33.33%;
+			padding: 0 20px;
+			box-sizing: border-box;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.col img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+		.col h3 {
+			font-size: 30px;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+		.col p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 0;
+		}
+		.btn {
+			display: inline-block;
+			padding: 12px 24px;
+			background-color: #000000;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 16px;
+			text-decoration: none;
+			border-radius: 4px;
+			margin-top: 30px;
+		}
+		.btn:hover {
+			background-color: #000000;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.png" alt="Company Logo">
+		</div>
+		<nav>
+			<ul
